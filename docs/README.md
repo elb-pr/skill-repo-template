@@ -8,17 +8,12 @@ Source document corpus for Claude skills. Documents are organised into topic sub
 
 ```
 docs/
-├── README.md       ← you are here
-├── _index.xml      ← retrieval index (generated — do not edit directly)
-├── strategy/
-├── identity/
-├── audience/
-├── marketing/
-├── process/
-└── insights/
+├── README.md         ← you are here
+├── _index.xml        ← retrieval index (generated — do not edit directly)
+└── category-one/     ← rename to match your domain; add more as needed
 ```
 
-Rename or replace the category folders to suit your domain.
+Rename `category-one/` and add further subfolders to suit the project domain.
 
 ---
 
@@ -58,35 +53,12 @@ Each chunk carries `start_line`/`end_line`, `<description>`, `<categories>`, per
 
 *Populate as documents are added.*
 
-### strategy/
+### category-one/
 
 | File | Description |
 |------|-------------|
 
-### identity/
-
-| File | Description |
-|------|-------------|
-
-### audience/
-
-| File | Description |
-|------|-------------|
-
-### marketing/
-
-| File | Description |
-|------|-------------|
-
-### process/
-
-| File | Description |
-|------|-------------|
-
-### insights/
-
-| File | Description |
-|------|-------------|
+*Rename this section and add more as you define the folder taxonomy.*
 
 ---
 

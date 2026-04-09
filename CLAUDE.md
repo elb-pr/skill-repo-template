@@ -27,7 +27,7 @@ Session orientation for Claude. Read this first, every time.
 ├── docs/                      ← source documents
 │   ├── README.md              ← doc manifest + retrieval notes
 │   ├── _index.xml             ← BM25+TF-IDF+RRF retrieval index (generated)
-│   └── [category]/            ← topic subfolders
+│   └── [category]/            ← topic subfolders (rename from category-one/)
 │
 ├── scripts/
 │   └── build_index.py         ← rebuilds docs/_index.xml
@@ -66,12 +66,10 @@ Source documents live in `docs/<category>/`. Six suggested categories — adjust
 
 | Folder | Content |
 |--------|---------|
-| `strategy/` | Strategy, positioning, architecture |
-| `identity/` | Visual/verbal identity systems |
-| `audience/` | Research, personas, analytics |
-| `marketing/` | Guidelines, consistency, campaigns |
-| `process/` | Workflows, deliverables, methods |
-| `insights/` | Industry trends, external analysis |
+| `category-one/` | [describe] |
+| `category-two/` | [describe] |
+
+*Define and rename these to match the domain. Delete `category-one/` once real folders are in place.*
 
 **Adding docs:** Drop Markdown files into the correct subfolder. PDFs and Office files → convert with `markitdown` first. After any addition, rebuild the index:
 
